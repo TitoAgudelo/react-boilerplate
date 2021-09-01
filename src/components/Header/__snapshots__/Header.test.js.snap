@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the Title Component correctly 1`] = `
+<styled.div>
+  <ForwardRef(MotionComponent)
+    animate={
+      Object {
+        "rotate": 360,
+        "scale": 1,
+      }
+    }
+    className="container"
+    initial={
+      Object {
+        "scale": 0,
+      }
+    }
+    transition={
+      Object {
+        "damping": 40,
+        "stiffness": 260,
+        "type": "spring",
+      }
+    }
+  >
+    <styled.p
+      testId="title"
+    >
+      Posts
+    </styled.p>
+  </ForwardRef(MotionComponent)>
+  <styled.p
+    testId="author"
+  >
+    By Tito Agudelo
+  </styled.p>
+</styled.div>
+`;

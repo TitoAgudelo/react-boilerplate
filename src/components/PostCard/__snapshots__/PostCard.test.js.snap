@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostCard should render the PostCard Component correctly 1`] = `
+<styled.div>
+  <styled.p
+    testId="postTitle"
+  >
+    sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+  </styled.p>
+  <styled.p
+    testId="postBody"
+  >
+    quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto
+  </styled.p>
+  <styled.p>
+    Comments:
+  </styled.p>
+  <styled.div
+    key="comment-0"
+  >
+    <styled.p>
+      laudantium enim quasi est quidem magnam voluptate ipsam eos
+tempora quo necessitatibus
+dolor quam autem quasi
+reiciendis et nam sapiente accusantium
+    </styled.p>
+    <styled.p>
+      By: 
+      id labore ex et quam laborum
+       - Email: 
+      Eliseo@gardner.biz
+    </styled.p>
+  </styled.div>
+  <styled.div
+    key="comment-1"
+  >
+    <styled.p>
+      est natus enim nihil est dolore omnis voluptatem numquam
+et omnis occaecati quod ullam at
+voluptatem error expedita pariatur
+nihil sint nostrum voluptatem reiciendis et
+    </styled.p>
+    <styled.p>
+      By: 
+      quo vero reiciendis velit similique earum
+       - Email: 
+      Jayne_Kuhic@sydney.com
+    </styled.p>
+  </styled.div>
+</styled.div>
+`;

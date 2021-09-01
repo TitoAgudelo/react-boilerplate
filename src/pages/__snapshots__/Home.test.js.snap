@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the Title Component correctly 1`] = `
+<Fragment>
+  <Header />
+  <Posts />
+</Fragment>
+`;
+
+exports[`Home should render the Page Component as snapshot 1`] = `
+<Fragment>
+  <Header />
+  <Posts />
+</Fragment>
+`;
