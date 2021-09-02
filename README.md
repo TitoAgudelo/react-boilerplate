@@ -47,7 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Code Strcuture
 
-This code use
+This code use the desition to use react context API is just legibility of my code, made the decision to use react context api due to the fact of keeping the call of external libraries like redux cleaner and using its hooks instead use react context api to maintain handling of internal hooks with providers and customs services as custom hooks the stack uses react with functional components and handle
 
 * Styled components
 * React context api state management
@@ -68,3 +68,7 @@ You should find this folder structure
 -- index.js
 
 state management is related folders as /providers and /hooks in this case is just a services calling API
+
+- /hooks as reference OF services requesting data and returning the information of the API as custom hook call action
+* usePost() getting post from API
+* useComments getting comments from API
